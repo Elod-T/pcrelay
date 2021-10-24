@@ -33,7 +33,7 @@ Your board connects to the wifi, and then to the mqtt broker(if you don't have o
 If you have the OTA version just download the newest pcrelay.ino file, compile it with your config. And then go to http://your.esp.8266.ip/update and then upload your compiled firmware. If you have the version without the OTA (TODO) just simply flash it like it is the first time.
 
 ## Alexa and Google Home support
-It is possible through Home Assistant. You have to install [Home Assistant](https://www.home-assistant.io/installation/), then configure the [mqtt broker](https://www.home-assistant.io/integrations/mqtt/), and finally set up [Google Assistant]((https://www.home-assistant.io/integrations/google_assistant/)) or [Alexa](https://www.home-assistant.io/integrations/alexa/)!
+It is possible through Home Assistant. You have to install [Home Assistant](https://www.home-assistant.io/installation/), then configure the [mqtt broker](https://www.home-assistant.io/integrations/mqtt/), and finally set up [Google Assistant](https://www.home-assistant.io/integrations/google_assistant/) or [Alexa](https://www.home-assistant.io/integrations/alexa/)!
 
 ## TODO
 - [x] Working project with basic functionality
