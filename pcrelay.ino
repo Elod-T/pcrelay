@@ -18,7 +18,7 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 // relay
-const int relayPin = D1;
+const int relayPin = D1; // do not change for Wemos D1 Mini and relay shield
 const long interval = 1000;
 
 bool check_number(String str) {
