@@ -18,7 +18,7 @@ If you have the Wemos D1 Mini and the Relay shield you can just simply follow th
 If you have a regular relay and esp8266 board you have to perform the exact same steps as above. After that you have to connect the relay to the board with 3 jumper cables.
 - 5V -> 5V
 - GND -> GND
-- D1 -> D1 (any port of your choice)
+- IN -> D1 (any port of your choice)
 
 ## Code:
 Make sure to replace the ***CAPITALIZED*** texts in the pcrelay.ino file. If you want you can customize the relay port (*do not change for the Wemos*), and the intervallum it pushes the button for by default.
@@ -41,4 +41,4 @@ It is possible through Home Assistant. You have to install [Home Assistant](http
 - [ ] Optional version without OTA update
 
 ### Thank you
-if you if you've made it through! This is my first GitHub repo, so any help, comment, critique is appriciated!
+if you if you've made it through! This is my first GitHub repo, so any help, comment or critique is appriciated!
