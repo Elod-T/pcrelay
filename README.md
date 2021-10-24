@@ -35,7 +35,7 @@ If you have the OTA version just download the newest pcrelay.ino file, compile i
 ## TODO
 - [x] Working project with basic functionality
 - [x] OTA update functionality
-- [] Optional version without OTA update
+- [ ] Optional version without OTA update
 
-##### Thank you
+### Thank you
 if you if you've made it through! This is my first GitHub repo, so any help, comment, critique is appriciated!
