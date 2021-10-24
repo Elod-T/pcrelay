@@ -10,13 +10,15 @@ This is an easy project based on the esp8266 board and a relay. It can work with
 
 ## Wiring:
 If you have the Wemos D1 Mini and the Relay shield you can just simply follow this diagram. ***Warning: perform these instruction ONLY when you unplug your pc from the wall!*** (*I do not take responsibility for injuries*) You have to unplug your existing power switch cables from your pc's motherboard and connect it to the relay's **common and normally open** pins (the order of the cable doesn't matter). I did this with 2 male-male jumper cables. After that you have to connect your motherboard's power switch pins to the same 2 pins on the relay as before (the order of the cable doesn't matter too). And finally you have to put the relay shield on the top of the Wemos board, be careful with it's orinetation.
+
 ![Created with https://www.circuitlab.com/](https://user-images.githubusercontent.com/33983644/138607924-18d4d973-6607-43ed-bf93-de4bcf599ddd.png)
+
 (D1, GND and 5V are already connected because of the shield)
 
 If you have a regular relay and esp8266 board you have to perform the exact same steps as above. After that you have to connect the relay to the board with 3 jumper cables.
-5V -> 5V
-GND -> GND
-D1 -> D1 (any port of your choice)
+- 5V -> 5V
+- GND -> GND
+- D1 -> D1 (any port of your choice)
 
 ## Code:
 Make sure to replace the ***CAPITALIZED*** texts in the pcrelay.ino file. If you want you can customize the relay port (*do not change for the Wemos*), and the intervallum it pushes the button by default.
