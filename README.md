@@ -23,7 +23,7 @@ If you have a regular relay and esp8266 board you have to perform the exact same
 ## Code:
 Make sure to replace the ***CAPITALIZED*** texts in the pcrelay.ino file. If you want you can customize the relay port (*do not change for the Wemos*), and the intervallum it pushes the button for by default.
 
-## Flasing:
+## Flashing:
 First you have to install the CH340G drivers on your system (only on Windows and Mac). And then install the esp8266 board using [this](https://github.com/esp8266/Arduino) tutorial. In Arduino Ide change your board to Wemos D1 Mini and leave the other options on default. Hit upload and you are good to go! If you have chosen the OTA version you have to do this once, after that you can upload firmware wirelessly!
 
 ## Usage:
