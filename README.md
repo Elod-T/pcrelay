@@ -5,6 +5,8 @@ This is an easy project based on the esp8266 board and a relay. It can work with
 - a relay board (for a more compact and easy setup, you can get the Relay Shield for the Wemos D1 Mini, [AliExpress link](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20211024110238&SearchText=wemos+d1+mini+relay+shield))
 - some jumper cables (at least 2 pcs female-male and 2pcs male-male, but it depends on your setup, [AliExpress link](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20211024110311&SearchText=jumper+cables))
 
+![Wemos with relay](https://user-images.githubusercontent.com/33983644/138681417-ac946c0e-37dd-45b3-9d94-4de3b940d85a.jpg)
+
 ## Software requirements:
 - Arduino ide or any kind of firmware flasher(for example EspTool)
 
