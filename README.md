@@ -1,5 +1,5 @@
 # ESP8266 pc relay!
-This is an easy project based on the esp8266 board and a relay. It can work with both Amazon Alexa and the Google Assistant!
+This is an easy project based on the esp8266 board and a relay. It works with both Amazon Alexa, the Google Assistant and Apple Homekit(Siri)!
 ## Hardware requirements:
 - your favorite esp8266 board (I recommend getting a Wemos D1 Mini, [AliExpress link](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20211024110219&SearchText=wemos+d1+mini))
 - a relay board (for a more compact and easy setup, you can get the Relay Shield for the Wemos D1 Mini, [AliExpress link](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20211024110238&SearchText=wemos+d1+mini+relay+shield))
@@ -35,7 +35,7 @@ Your board connects to the wifi, and then to the mqtt broker(if you don't have o
 If you have the OTA version just download the newest pcrelay.ino file, compile it with your config. And then go to http://your.esp.8266.ip/update and then upload your compiled firmware. If you have the version without the OTA (TODO) just simply flash it like it is the first time.
 
 ## Alexa and Google Home support
-It is possible through Home Assistant. You have to install [Home Assistant](https://www.home-assistant.io/installation/), then configure the [mqtt broker](https://www.home-assistant.io/integrations/mqtt/), and finally set up [Google Assistant](https://www.home-assistant.io/integrations/google_assistant/) or [Alexa](https://www.home-assistant.io/integrations/alexa/)!
+It is possible through Home Assistant. You have to install [Home Assistant](https://www.home-assistant.io/installation/), then configure the [mqtt broker](https://www.home-assistant.io/integrations/mqtt/), and finally set up [Google Assistant](https://www.home-assistant.io/integrations/google_assistant/), [Alexa](https://www.home-assistant.io/integrations/alexa/) or [Apple Homokit (Siri)](https://www.home-assistant.io/integrations/homekit/)!
 
 ## TODO
 - [x] Working project with basic functionality
